@@ -1,0 +1,225 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-color: #f8f8f8;
+    height: 100%;
+}
+
+.container {
+    max-width: 1200px;
+    min-width: 500px;
+    margin: 0 auto;
+    min-height: 100%;
+}
+
+.header {
+    height: 70px;
+    position: relative;
+    background-image: url(img/background.jpg);
+}
+
+.logo {
+    width: 150px;
+    height: 50px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 70px;
+}
+
+.dmenu {
+    float: right;
+    margin-right: 450px;
+    margin-top: 20px;
+}
+
+.menu li,
+.menu li a {
+    font-size: 18px;
+    font-weight: bold;
+    list-style-type: none;
+    color: #121274;
+    text-decoration: none;
+    width: 70px;
+}
+
+.menu li {
+    float: left;
+    width: 90px;
+    background-color: cornflowerblue;
+    text-align: center;
+    border: aliceblue solid 1px;
+}
+
+h1,
+h2,
+h3 {
+    color: darkslateblue;
+}
+
+a:link {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.act {
+    font-weight: normal;
+}
+
+.menu a:hover {
+    color: darkorange;
+}
+
+.content {
+    position: relative;
+}
+
+.photo {
+    height: 170px;
+    float: left;
+}
+
+.sd {
+    float: left;
+    margin-left: 30px;
+}
+
+.buy:hover {
+    background-color: darkorange;
+}
+
+.buy:active {
+    color: red;
+}
+
+.spechead {
+    clear: both;
+}
+
+.sdhead,
+.spechead,
+.ldhead {
+    color: black;
+    font-size: 24px;
+    font-weight: 400;
+    background-color: #eaeaea;
+}
+
+.ldtext,
+ldtext ul {
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    list-style-image: url(img/marker.jpg);
+}
+
+.sdtext,
+.spectext {
+    color: #556a7f;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 20px;
+    text-align: left;
+}
+
+.name {
+    width: 200px;
+}
+
+.name:focus {
+    color: blue;
+    background-color: aliceblue;
+}
+
+.email:focus {
+    color: blue;
+    background-color: aliceblue;
+}
+
+.theme:focus {
+    color: blue;
+    background-color: aliceblue;
+}
+
+.theme {
+    width: 680px;
+}
+
+.message:focus {
+    color: blue;
+    background-color: aliceblue;
+}
+
+.message {
+    width: 715px;
+    height: 180px;
+}
+
+.name,
+.theme,
+.message {
+    color: #121274;
+}
+
+.image:hover {
+    outline: 2px solid darkorange;
+}
+
+.sdtext:first-letter,
+.spectext:first-letter {
+    font-size: 24px;
+    font-weight: bold;
+    color: blue;
+}
+
+.modtable {
+    border: 1px solid blue;
+    width: 400px;
+    height: 200px;
+}
+
+.modtable td {
+    border: 1px solid blue;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.td2 {
+    height: 80px;
+}
+
+.item {
+    display: inline-block;
+}
+
+.item a:hover {
+    color: darkorange;
+}
+
+.item a img:hover {
+    outline: 2px solid darkorange;
+}
+
+.map {
+    width: 100%;
+    height: 374px;
+    border-width: 0px;
+}
+
+.clr {
+    height: 70px;
+}
+
+.footer {
+    height: 50px;
+    width: 1200px;
+    background-color: cornflowerblue;
+    text-align: right;
+    padding-right: 30px;
+    padding-top: 10px;
+    margin: -50px auto 0;
+    clear: both;
+}
